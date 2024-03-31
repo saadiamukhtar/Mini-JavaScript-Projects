@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+}
+.player{
+    display: flex;
+    margin: 20px;
+}
+.computer{
+    display: flex;
+    margin: 20px;
+}
+.input{
+    /* outline: 0; */
+    /* border: 0;s */
+    margin: 0 5px;
+    padding: 7px;
+}
+.result{
+    margin: 20px;
+    font-size: 20px;
+}
+.button_contain{
+   margin: 20px;
+  
+ 
+}
+.btn-rock, .btn-paper, .btn-scissor{
+    font-size: 20px;
+    padding: 4px;
+    margin: 0 4px;
+}
